@@ -1,0 +1,69 @@
+body {
+  background: linear-gradient(to right, #511e77, #69143c);
+  z-index: -1;
+}
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.titulo {
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  width: 30vw;
+  margin: auto;
+}
+
+.btn {
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 0.5em;
+  text-decoration: none;
+}
+/*
+#jogar a {
+  padding: 0px 0px;
+  border-radius: 24px;
+  text-decoration: salmon;
+  color: white;
+}
+*/
+
+.btn:hover {
+  background-color: lightcoral;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgb(240, 226, 247);
+  display: block;
+  padding: 0.5em;
+  width: 30%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background-color: rgba(146, 46, 146, 0.349);
+  color: azure;
+  padding: 10px;
+  text-align: center;
+}
+
+.rede-social a,
+span {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #0a3871;
+  font-size: 15px;
+  gap: 0.75;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Jogo da Forca</title>
+  </head>
+  <body>
+    <div style="text-align: center; margin: 0px 0px">
+      <h1 class="titulo">Jogo da Forca</h1>
+      <button class="btn" id="iniciar-jogo">Iniciar</button>
+    </div>
+    <div style="text-align: center">
+      <input
+        class="text-input"
+        type="text"
+        id="input-nova-palavra"
+        placeholder="Escreva uma nova palavra"
+      />
+      <button class="btn" id="nova-palavra">ADICIONAR PALAVRA</button>
+    </div>
+
+    <div style="text-align: center">
+      <canvas id="forca" height="480px" width="1200px"></canvas>
+    </div>
+
+    <footer>
+      <p>Copyright © 2022 Edvaldo Sena | Scearth v 1.0.0</p>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/edvaldosena16/" target="_blank"
+          ><img src="img/linkedin.png" alt="Meu perfil no LinkedIn"
+        /></a>
+        <a href="https://github.com/Edysena16" target="_blank"
+          ><img src="img/GitHub.png" alt="Meu perfil no GitHub"
+        /></a>
+      </div>
+    </footer>
+
+    <!--<script src="canvas.js"></script>-->
+    <script src="canvas.js"></script>
+    <script src="forca.js"></script>
+  </body>
+</html>
